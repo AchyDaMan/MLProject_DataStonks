@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tweets about the Top Companies from 2015 to 2020 | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Tweets about the Top NASDAQ Companies from 2015 to 2020" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="internet,online communities,finance,investing,social networks,email and messaging" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==" type="text/javascript">
+    window["pageRequestStartTime"] = 1682453066582;
+    window["pageRequestEndTime"] = 1682453066678;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=347bcfc883299a7a24f3" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=503de4ebdb18b3e50918" />
+  
+    
+ 
+      <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020" />
+    <meta property="og:title" content="Tweets about the Top Companies from 2015 to 2020" />
+    <meta property="og:description" content="Tweets about the Top NASDAQ Companies from 2015 to 2020" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/999187/1686135/b3fb7e845d996d95b045f26a45a9b6f1/dataset-card.jpg?t=2020-11-29-09-50-32" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="+BoB8mJdFYtJR4LwcdfJfw==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Tweets about the Top Companies from 2015 to 2020","description":"### Tweets about the Top Companies from 2015 to 2020\n\nThis dataset as a part of the paper published in the 2020 IEEE International Conference on Big Data under the 6th Special Session on Intelligent Data Mining track, is created to determine possible speculators and influencers in a stock market. Although we used both tweet data and companies' market data in our project, we thought that it is a better choice to split our datasets into two parts while sharing in Kaggle. This dataset is helpful for those interested in tweets that are written about Amazon, Apple, Google, Microsoft, and Tesla by using their appropriate share tickers.\n\nNote: For those interested in the process of evaluating speculators and influencers in a stock market, the dataset in the following link may be helpful.\nhttps://www.kaggle.com/omermetinn/values-of-top-nasdaq-copanies-from-2010-to-2020\n\n### Content\n\nThis dataset contains over 3 million unique tweets with their information such as tweet id, author of the tweet, post date, the text body of the tweet, and the number of comments, likes, and retweets of tweets matched with the related company.\n\n### Acknowledgements\n\nTweets are collected from Twitter by a parsing script that is based on Selenium.\nNote 1: For those interested in the script, please visit the following link.\nhttps://github.com/omer-metin/TweetCollector\n\nNote 2: For those interested in our paper used this dataset, please visit the following link.\nhttps://ieeexplore.ieee.org/document/9378170\n\n### Inspiration\n\nSome of the interesting questions (tasks) which can be performed on this dataset -\n\n1) Determining the correlation between the market value of company respect to the public opinion of that company.\n2) Sentiment Analysis of the companies with a time series in a graph and reasoning the possible declines and rises.\n3) Evaluating troll users who try to occupy the social agenda.\n","url":"https://www.kaggle.com/omermetinn/tweets-about-the-top-companies-from-2015-to-2020","version":1,"keywords":["subject, science and technology, internet","subject, science and technology, internet, online communities","subject, people and society, business, finance","subject, people and society, business, finance, investing","subject, science and technology, internet, online communities, social networks","subject, science and technology, internet, email and messaging"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["999187"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Ömer Metin","url":"https://www.kaggle.com/omermetinn","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/download?datasetVersionNumber=1","contentSize":"291228288 bytes"}],"commentCount":2,"dateModified":"2020-11-26T16:25:11.31Z","discussionUrl":"https://www.kaggle.com/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/discussion","alternateName":"Tweets about the Top NASDAQ Companies from 2015 to 2020","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/999187/1686135/b3fb7e845d996d95b045f26a45a9b6f1/dataset-card.jpg?t=2020-11-29-09-50-32","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":2},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":10001},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":104461},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":230}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+    <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="+BoB8mJdFYtJR4LwcdfJfw==" src="/static/assets/runtime.js?v=316006680d0779d62925" data-turbolinks-track="reload"></script>
+  <script nonce="+BoB8mJdFYtJR4LwcdfJfw==" src="/static/assets/vendor.js?v=c79cb9fe7528aa13d4ce" data-turbolinks-track="reload"></script>
+  <script nonce="+BoB8mJdFYtJR4LwcdfJfw==" src="/static/assets/app.js?v=fbad352b907ce84768c6" data-turbolinks-track="reload"></script>
+    <script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="+BoB8mJdFYtJR4LwcdfJfw==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":999187,"slug":"tweets-about-the-top-companies-from-2015-to-2020","title":"Tweets about the Top Companies from 2015 to 2020","description":"### Tweets about the Top Companies from 2015 to 2020\n\nThis dataset as a part of the paper published in the 2020 IEEE International Conference on Big Data under the 6th Special Session on Intelligent Data Mining track, is created to determine possible speculators and influencers in a stock market. Although we used both tweet data and companies\u0027 market data in our project, we thought that it is a better choice to split our datasets into two parts while sharing in Kaggle. This dataset is helpful for those interested in tweets that are written about Amazon, Apple, Google, Microsoft, and Tesla by using their appropriate share tickers.\n\nNote: For those interested in the process of evaluating speculators and influencers in a stock market, the dataset in the following link may be helpful.\nhttps://www.kaggle.com/omermetinn/values-of-top-nasdaq-copanies-from-2010-to-2020\n\n### Content\n\nThis dataset contains over 3 million unique tweets with their information such as tweet id, author of the tweet, post date, the text body of the tweet, and the number of comments, likes, and retweets of tweets matched with the related company.\n\n### Acknowledgements\n\nTweets are collected from Twitter by a parsing script that is based on Selenium.\nNote 1: For those interested in the script, please visit the following link.\nhttps://github.com/omer-metin/TweetCollector\n\nNote 2: For those interested in our paper used this dataset, please visit the following link.\nhttps://ieeexplore.ieee.org/document/9378170\n\n### Inspiration\n\nSome of the interesting questions (tasks) which can be performed on this dataset -\n\n1) Determining the correlation between the market value of company respect to the public opinion of that company.\n2) Sentiment Analysis of the companies with a time series in a graph and reasoning the possible declines and rises.\n3) Evaluating troll users who try to occupy the social agenda.\n","viewCount":104461,"downloadCount":10001,"scriptCount":27,"topicCount":2,"owner":{"id":6245195,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"\u00D6mer Metin","profileUrl":"/omermetinn","slug":"omermetinn"},"license":{"id":1,"name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"overview":"Tweets about the Top NASDAQ Companies from 2015 to 2020","collaboratorList":{"owner":{"userId":6245195,"profileUrl":"/omermetinn","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"\u00D6mer Metin","slug":"omermetinn","type":"OWNER"},"collaborators":[{"userId":3606121,"profileUrl":"/immustafad","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"Mustafa Dogan","slug":"immustafad","joinDate":"2020-11-26T16:32:13.043Z","type":"WRITER"}]},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/999187/1686135/b3fb7e845d996d95b045f26a45a9b6f1/dataset-cover.jpg?t=2020-11-29-09-50-32","data":{"totalSize":291228288,"isFileset":true,"canDownload":true,"firestorePath":"QYhYio3LFKS28g2wR8LR/versions/DHM7ffJxGUDjlZBnTQrR","downloadUrl":"/datasets/omermetinn/omermetinn/download?datasetVersionNumber=1","versionId":1722706,"id":1021491},"voteCount":230,"medalUrl":"/static/images/medals/datasets/silverl@2x.png","downloadUrl":"/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/download?datasetVersionNumber=1","lastUpdateTime":"2020-11-26T16:25:11.310Z","datasetVersionNumber":1,"creatorDisplayName":"\u00D6mer Metin","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/999187/1686135/b3fb7e845d996d95b045f26a45a9b6f1/dataset-card.jpg?t=2020-11-29-09-50-32","categories":{"tags":[{"id":12116,"name":"internet","fullPath":"subject \u003E science and technology \u003E internet","listingUrl":"/datasets?group=public\u0026tagids=12116","description":"An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.","datasetCount":12217,"competitionCount":18,"notebookCount":2199,"tagUrl":"/tags/internet","displayName":"Internet"},{"id":16489,"name":"online communities","fullPath":"subject \u003E science and technology \u003E internet \u003E online communities","listingUrl":"/datasets?group=public\u0026tagids=16489","description":"","datasetCount":7651,"competitionCount":3,"notebookCount":1237,"tagUrl":"/tags/online-communities","displayName":"Online Communities"},{"id":11108,"name":"finance","fullPath":"subject \u003E people and society \u003E business \u003E finance","listingUrl":"/datasets?group=public\u0026tagids=11108","description":"The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you\u0027ve come to the right place.","datasetCount":5541,"competitionCount":10,"notebookCount":3774,"tagUrl":"/tags/finance","displayName":"Finance"},{"id":16371,"name":"investing","fullPath":"subject \u003E people and society \u003E business \u003E finance \u003E investing","listingUrl":"/datasets?group=public\u0026tagids=16371","description":"","datasetCount":5364,"notebookCount":18355,"tagUrl":"/tags/investing","displayName":"Investing"},{"id":16502,"name":"social networks","fullPath":"subject \u003E science and technology \u003E internet \u003E online communities \u003E social networks","listingUrl":"/datasets?group=public\u0026tagids=16502","description":"","datasetCount":4000,"notebookCount":4349,"tagUrl":"/tags/social-networks","displayName":"Social Networks"},{"id":16486,"name":"email and messaging","fullPath":"subject \u003E science and technology \u003E internet \u003E email and messaging","listingUrl":"/datasets?group=public\u0026tagids=16486","description":"","datasetCount":2425,"competitionCount":1,"notebookCount":134,"tagUrl":"/tags/email-and-messaging","displayName":"Email and Messaging"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020","forumId":1015835,"datasetVersionId":1686135,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":1,"diffType":"VERSIONED"},"accessedViaHashLink":false});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="&#x2B;BoB8mJdFYtJR4LwcdfJfw==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
